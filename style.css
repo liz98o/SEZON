@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items:center;
+    padding: 10px 50px;
+}
+
+body {
+    background-color: B2ABAB;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+nav>a {
+    font-size: 20;
+    color: white;
+    text-decoration: none;
+    padding:  5px 25px;
+}
+
+header>div {
+    color: white;
+    font-size: 40;
+}
+
+header>img {
+    border-end-end-radius: 21.5;
+}
+
+section {
+    background-color: B2ABAB;
+} 
+
+.banner {
+    background-image: url(t.png);
+    margin-top: 50 px;
+    padding: 25%;
+    display: flex;
+    align-items:center;
+    background-size: contain;
+}
+
+.main {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.slider {
+    background-color: 404040;
+    color: white;
+}
+
+.photo {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-between;
+    margin: 150px;
+    
+}
+
+
